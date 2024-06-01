@@ -1,0 +1,57 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.game-board {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 20px 0;
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 20px;
+  color: #666;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #7f6bff;
+}
